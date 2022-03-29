@@ -1,0 +1,19 @@
+<ion-app>
+  <ion-header translucent>
+    <ion-toolbar>
+      <ion-title>Barcode Scanner</ion-title>
+    </ion-toolbar> </ion-header
+  >,
+  <ion-content fullscreen [style.--background]="scanActive ? '#00000000': '#fff'">
+    <div class="flex-center height-85" [hidden]="scanActive">
+      <div class="content">
+        <h1 style="font-size: 50px; text-align: center;">Scanner</h1>
+        <div class="scanner-img">
+          <img src="/assets/barcode.png" alt="" style="width: 300px; height: auto;">
+        </div>
+        <ion-button expand="block" (click)="startScanner()">Scan</ion-button>
+      </div>
+    </div>
+    <div class="scan-box" [hidden]="!scanActive"></div>
+  </ion-content>
+</ion-app>

@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Barcode Scanner",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Barcode Scanner",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

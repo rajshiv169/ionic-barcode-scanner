@@ -1,0 +1,28 @@
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.height-85 {
+    height: 85%;
+}
+
+.scanner-img {
+    border: 2px solid black;
+    padding: 5px 10px 1px 10px;
+    margin-bottom: 10px;
+}
+
+.scan-box {
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 100vmax rgba(0,0,0,0.5);
+    content: '';
+    display: block;
+    left: 50%;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+}
